@@ -14,6 +14,14 @@
 		BF7D61AB29D6DAE000C749BE /* instagram_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7D61AA29D6DAE000C749BE /* instagram_appTests.swift */; };
 		BF7D61B529D6DAE000C749BE /* instagram_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7D61B429D6DAE000C749BE /* instagram_appUITests.swift */; };
 		BF7D61B729D6DAE000C749BE /* instagram_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7D61B629D6DAE000C749BE /* instagram_appUITestsLaunchTests.swift */; };
+		BF7D61C429DC0D5900C749BE /* Instagramprofile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7D61C329DC0D5900C749BE /* Instagramprofile.swift */; };
+		BF7D61C629DC0DBB00C749BE /* Gridstutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7D61C529DC0DBB00C749BE /* Gridstutorial.swift */; };
+		BF7D61CA29DD6EEF00C749BE /* CommentsContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7D61C929DD6EEF00C749BE /* CommentsContainer.swift */; };
+		BF7D61CC29DEE14000C749BE /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7D61CB29DEE14000C749BE /* Navigation.swift */; };
+		BF7D61D429E57D5400C749BE /* searchforsomething.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7D61D329E57D5400C749BE /* searchforsomething.swift */; };
+		BF7D61D629E5844900C749BE /* sampledata.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7D61D529E5844900C749BE /* sampledata.swift */; };
+		BF7D61D829E5A38F00C749BE /* messagerie.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7D61D729E5A38F00C749BE /* messagerie.swift */; };
+		BF7D61DB29E5AED700C749BE /* messagerieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7D61DA29E5AED700C749BE /* messagerieDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +52,14 @@
 		BF7D61B029D6DAE000C749BE /* instagram-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "instagram-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF7D61B429D6DAE000C749BE /* instagram_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instagram_appUITests.swift; sourceTree = "<group>"; };
 		BF7D61B629D6DAE000C749BE /* instagram_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instagram_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BF7D61C329DC0D5900C749BE /* Instagramprofile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instagramprofile.swift; sourceTree = "<group>"; };
+		BF7D61C529DC0DBB00C749BE /* Gridstutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gridstutorial.swift; sourceTree = "<group>"; };
+		BF7D61C929DD6EEF00C749BE /* CommentsContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsContainer.swift; sourceTree = "<group>"; };
+		BF7D61CB29DEE14000C749BE /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		BF7D61D329E57D5400C749BE /* searchforsomething.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchforsomething.swift; sourceTree = "<group>"; };
+		BF7D61D529E5844900C749BE /* sampledata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampledata.swift; sourceTree = "<group>"; };
+		BF7D61D729E5A38F00C749BE /* messagerie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = messagerie.swift; sourceTree = "<group>"; };
+		BF7D61DA29E5AED700C749BE /* messagerieDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = messagerieDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +90,12 @@
 		BF7D618D29D6DADE00C749BE = {
 			isa = PBXGroup;
 			children = (
+				BF7D61D929E5AEC300C749BE /* messagerie */,
+				BF7D61D529E5844900C749BE /* sampledata.swift */,
+				BF7D61D329E57D5400C749BE /* searchforsomething.swift */,
+				BF7D61CB29DEE14000C749BE /* Navigation.swift */,
+				BF7D61C929DD6EEF00C749BE /* CommentsContainer.swift */,
+				BF7D61C829DC11A100C749BE /* Grids */,
 				BF7D619829D6DADE00C749BE /* instagram-app */,
 				BF7D61A929D6DAE000C749BE /* instagram-appTests */,
 				BF7D61B329D6DAE000C749BE /* instagram-appUITests */,
@@ -95,7 +117,6 @@
 			isa = PBXGroup;
 			children = (
 				BF7D619929D6DADE00C749BE /* instagram_appApp.swift */,
-				BF7D619B29D6DADE00C749BE /* ContentView.swift */,
 				BF7D619D29D6DAE000C749BE /* Assets.xcassets */,
 				BF7D619F29D6DAE000C749BE /* Preview Content */,
 			);
@@ -125,6 +146,25 @@
 				BF7D61B629D6DAE000C749BE /* instagram_appUITestsLaunchTests.swift */,
 			);
 			path = "instagram-appUITests";
+			sourceTree = "<group>";
+		};
+		BF7D61C829DC11A100C749BE /* Grids */ = {
+			isa = PBXGroup;
+			children = (
+				BF7D619B29D6DADE00C749BE /* ContentView.swift */,
+				BF7D61C329DC0D5900C749BE /* Instagramprofile.swift */,
+				BF7D61C529DC0DBB00C749BE /* Gridstutorial.swift */,
+			);
+			path = Grids;
+			sourceTree = "<group>";
+		};
+		BF7D61D929E5AEC300C749BE /* messagerie */ = {
+			isa = PBXGroup;
+			children = (
+				BF7D61D729E5A38F00C749BE /* messagerie.swift */,
+				BF7D61DA29E5AED700C749BE /* messagerieDetail.swift */,
+			);
+			path = messagerie;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +297,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF7D61C429DC0D5900C749BE /* Instagramprofile.swift in Sources */,
 				BF7D619C29D6DADE00C749BE /* ContentView.swift in Sources */,
+				BF7D61D829E5A38F00C749BE /* messagerie.swift in Sources */,
 				BF7D619A29D6DADE00C749BE /* instagram_appApp.swift in Sources */,
+				BF7D61CA29DD6EEF00C749BE /* CommentsContainer.swift in Sources */,
+				BF7D61C629DC0DBB00C749BE /* Gridstutorial.swift in Sources */,
+				BF7D61CC29DEE14000C749BE /* Navigation.swift in Sources */,
+				BF7D61DB29E5AED700C749BE /* messagerieDetail.swift in Sources */,
+				BF7D61D429E57D5400C749BE /* searchforsomething.swift in Sources */,
+				BF7D61D629E5844900C749BE /* sampledata.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
